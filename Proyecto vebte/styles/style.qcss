@@ -1,0 +1,92 @@
+QWidget {
+    background-color: #121417;
+    color: #E0E6ED;
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 13px;
+}
+
+QGroupBox {
+    border: 1px solid #2A2F38;
+    border-radius: 8px;
+    margin-top: 18px;
+    font-weight: bold;
+    padding-top: 12px;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    left: 14px;
+    padding: 0 5px;
+    color: #FF5E36;
+}
+
+QLineEdit, QComboBox, QSpinBox, QDoubleSpinBox {
+    background-color: #1D222A;
+    border: 1px solid #323A46;
+    border-radius: 5px;
+    padding: 6px 10px;
+    color: #FFFFFF;
+}
+
+QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QDoubleSpinBox:focus {
+    border: 1px solid #FF5E36;
+}
+
+QPushButton {
+    background-color: #FF5E36;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 16px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #FF7452;
+}
+
+QPushButton:pressed {
+    background-color: #D94823;
+}
+
+QPushButton#btnSecundario {
+    background-color: #242A35;
+    border: 1px solid #3A4454;
+}
+
+QPushButton#btnSecundario:hover {
+    background-color: #2F3746;
+}
+
+QTableWidget {
+    background-color: #1A1F26;
+    gridline-color: #2A3340;
+    border: 1px solid #2A2F38;
+    border-radius: 8px;
+    selection-background-color: #FF5E36;
+    selection-color: #FFFFFF;
+}
+
+QHeaderView::section {
+    background-color: #14181E;
+    color: #8C9BAE;
+    padding: 6px;
+    border: none;
+    border-bottom: 2px solid #2A2F38;
+    font-weight: bold;
+}
+
+QProgressBar {
+    background-color: #1A1F26;
+    border: 1px solid #2A3340;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+QProgressBar::chunk {
+    background-color: #00D084;
+    border-radius: 4px;
+}
